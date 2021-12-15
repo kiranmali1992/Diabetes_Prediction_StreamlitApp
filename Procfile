@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run Diabetic_Prediction_webapp.py
