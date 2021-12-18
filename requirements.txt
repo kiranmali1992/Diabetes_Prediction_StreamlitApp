@@ -25,6 +25,7 @@ decorator==5.1.0
 defusedxml==0.7.1
 entrypoints==0.3
 enum-compat==0.0.3
+gunicorn==20.1.0
 idna==3.2
 ipykernel==6.4.1
 ipython==7.27.0
@@ -77,12 +78,13 @@ pyee==7.0.4
 Pygments==2.10.0
 pymongo==3.12.0
 pyparsing==2.4.7
+pypiwin32==223
 pyppeteer==0.2.2
 pyrsistent==0.18.0
-python-dateutil==3.8.8
+python-dateutil==2.8.2
 pytz==2021.1
 pytz-deprecation-shim==0.1.0.post0
-pypiwin32>=223
+pywin32==301
 pywinpty==0.5.7
 pyzmq==22.3.0
 qtconsole==5.1.1
