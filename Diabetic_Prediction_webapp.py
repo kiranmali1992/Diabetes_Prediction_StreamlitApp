@@ -7,7 +7,7 @@ std = StandardScaler()
 
 #Loading the model
 
-loaded_model = pickle.load(open("C:/Users/Kiran/Desktop/ML_project/New folder/Diabetes_Prediction_StreamlitApp/trained_model.sav", "rb"))
+loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 def Diabetes_prediction(input_data):
 
