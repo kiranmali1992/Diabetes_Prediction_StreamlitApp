@@ -15,7 +15,7 @@ def Diabetes_prediction(input_data):
     input_data = np.array(input_data).reshape(1,-1)
 
     #Apply Standardization
-    input_data[:,:] = std.fit_transform(input_data[:,:])
+    #input_data[:,:] = std.fit_transform(input_data[:,:])
 
     #Prediction of output
     Prediction = loaded_model.predict(input_data)
